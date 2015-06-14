@@ -1,0 +1,39 @@
+<configuration>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>master:54311</value>
+</property>
+<property>
+  <name> mapreduce.framework.name</name>
+  <value>yarn</value>
+</property>
+<property>
+    <name>mapred.compress.map.output</name>
+    <value>true</value>
+</property>
+<property>
+    <name>mapred.map.output.compression.codec</name>
+    <value>org.apache.hadoop.io.compress.GzipCodec</value>
+</property>
+<!--<property>
+    <name>io.sort.mb</name>
+    <value>800</value>
+</property>
+<property>
+<name>mapreduce.map.memory.mb</name>
+<value>600</value>
+</property>
+<property>
+<name>mapreduce.reduce.memory.mb</name>
+<value>600</value>
+</property>
+#<property>
+#<name>mapreduce.map.java.opts</name>
+#<value>-Xmx500m</value>
+#</property>
+#<property>
+#<name>mapreduce.reduce.java.opts</name>
+#<value>-Xmx500m</value>
+#</property>-->
+</configuration>
+

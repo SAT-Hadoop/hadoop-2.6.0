@@ -1,0 +1,12 @@
+
+<configuration>
+<property>
+  <name>fs.default.name</name>
+  <value>hdfs://master:9000</value>
+</property>
+<property>
+<name>hadoop.tmp.dir</name>
+<value>/vol-01/hadoop/hdfs</value>
+</property>
+</configuration>
+
